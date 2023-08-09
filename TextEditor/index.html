@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Basic Text Editor</title>
+</head>
+<body>
+    <div class="editor">
+        <div class="toolbar">
+            <button id="bold-button"><b>B</b></button>
+            <button id="italic-button"><i>I</i></button>
+            <button id="underline-button"><u>U</u></button>
+            <select id="font-size-select">
+                <option value="12px">12</option>
+                <option value="16px">16</option>
+                <option value="20px">20</option>
+            </select>
+            <input type="color" id="color-input">
+            <button id="save-button">Save</button>
+            <button id="load-button">Load</button>
+        </div>
+        <div class="text-area" contenteditable="true"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
